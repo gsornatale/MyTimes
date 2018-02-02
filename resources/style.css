@@ -3,7 +3,6 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border: 1px solid red;
   justify-content: space-between;
 }
 
@@ -11,8 +10,18 @@ header {
   color: MediumAquamarine;
   display: flex;
   align-items: center;
+  margin-left: 10px;
+}
+
+.logo span {
+  margin-left: 10px;
 }
 
 nav {
-  border: 1px solid blue;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav span {
+  margin: 10px;
 }
