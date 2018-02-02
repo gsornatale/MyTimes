@@ -30,24 +30,31 @@ nav span {
   display: inline-block;
 }
 
-.main {
+.main-container {
   display: flex;
   border: 1px solid black;
+  justify-content: space-between;
 }
 
 .large {
   width: 630px;
-  border: 2px solid black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .medium {
   width: 300px;
-  border: 2px solid black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .small {
   width: 240px;
-  border: 2px solid black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .phish-image {
@@ -73,4 +80,26 @@ nav span {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  height: 300px;
+}
+
+.camera {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  height: 300px;
+}
+
+.cats-image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  height: 300px;
 }
