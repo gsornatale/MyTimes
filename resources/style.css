@@ -4,6 +4,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   border: 1px solid red;
+  justify-content: space-between;
 }
 
 .logo {
@@ -12,8 +13,6 @@ header {
   align-items: center;
 }
 
-.nav {
+nav {
   border: 1px solid blue;
-  display: flex;
-  justify-content: flex-end;
 }
